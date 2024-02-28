@@ -17,4 +17,5 @@ group :test do
     gem 'simplecov-lcov', '~> 0.8'
     gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
     gem 'webmock', '~> 3.14'
+    gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 end

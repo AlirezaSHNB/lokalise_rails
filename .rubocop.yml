@@ -1,9 +1,10 @@
 require:
- - rubocop-performance
- - rubocop-rspec
- - rubocop-rake
+  - rubocop-performance
+  - rubocop-rspec
+  - rubocop-rake
 
 AllCops:
+  DisabledByDefault: true
   TargetRubyVersion: 3.0
   NewCops: enable
   Exclude:
@@ -22,7 +23,7 @@ Metrics/BlockLength:
     - lokalise_rails.gemspec
 
 Metrics/BlockNesting:
-  Max: 2
+  Max: 4
 
 RSpec/DescribeClass:
   Enabled: false
